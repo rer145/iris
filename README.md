@@ -6,10 +6,15 @@ The purpose of this repository is to get familiar with the IRIS dataset that is 
 ## Files
 Included in this repository are the data files from kaggle.  Along with these 2 files, are the Jupyter Notebook files that will contain notes, code, and results from testing against the IRIS dataset.
 
+The main experiment file is iris-experiments.ipynb. This file contains both pygal and matplotlib charts, however Kaggle does not support pygal.  So the file on Kaggle is iris-experiments-kaggle.ipynb
+
 ## Libraries
 Some libraries I will be using in this repository are:
 1. pandas
 2. numpy
 3. matplotlib
 4. pygal
+5. seaborn
+
+
 
