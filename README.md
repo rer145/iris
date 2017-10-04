@@ -11,7 +11,7 @@ The reasoning behind this structure is to match how things are on Kaggle, which 
 
 The first notebook to look at is ```iris-experiments.ipynb```. This is the notebook that also located on my [Kaggle account](https://www.kaggle.com/rer145/iris-experiments/).  In this notebook, the goal was to follow along with an existing kernel to gain a better understanding of the data set.
 
-The second notebook to look at is ```iris-pygal.ipynb```. This notebook is a smaller example of accessing the Iris data set, uses pygal for the visualizations.  This notebook is NOT on Kaggle, since Kaggle does not support the use of pygal on its site.
+The second notebook to look at is ```iris-pygal.ipynb```. This notebook is a smaller example of accessing the Iris data set, uses pygal for the visualizations.  This notebook is NOT on Kaggle, since Kaggle does not support the use of pygal on its site. This notebook is primarily used for my own experiments with using pygal against the data set.
 
 ## Useful Links
 
