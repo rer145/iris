@@ -19,25 +19,37 @@ The third notebook to look at is ```iris-data.ipynb```.  This notebook is a scra
 
 Pandas contains a very useful method called ```describe()```.  This method generates several statistics that summarize the data. In my opinion, this is a very quick and dirty way of finding out what sort of data you are using.  
 
+I created two additional columns of data for each record that represents the area of the sepal and petal. This was accomplished by multiplying the length and width of the sepal and the petal and concatenating that to the iris data set. 
+
 #### Iris-setosa
 
-Stat | Sepal Length | Sepal Width | Petal Length | Petal Width
---- | ---: | ---: | ---: | ---:
-count | 50.0 | 50.0 | 50.0 | 50.0
-mean | 5.006 | 3.418 | 1.464 | 0.244
-std | 0.352490 | 0.381024 | 0.173511 | 0.107210
-min | 4.3 | 2.3 | 1.0 | 0.1
-max | 5.8 | 4.4 | 1.9 | 0.6
+Stat | Sepal Length (cm) | Sepal Width (cm) | Sepal Area (cm) | Petal Length (cm) | Petal Width (cm) | Petal Area (cm)
+--- | ---: | ---: | ---: | ---: | ---: | ---:
+count | 50.0 | 50.0 | 50.0 | 50.0 | 50.0 | 50.0
+mean | 5.006 | 3.418 | 17.2088 | 1.464 | 0.244 | 0.3628
+std | 0.352490 | 0.381024 | 2.947688 | 0.173511 | 0.107210 | 0.183248
+min | 4.3 | 2.3 | 10.35 | 1.0 | 0.1 | 0.11
+max | 5.8 | 4.4 | 25.08 | 1.9 | 0.6 | 0.96
 
 #### Iris-versicolor
 
-Stat | Sepal Length | Sepal Width | Petal Length | Petal Width
---- | ---: | ---: | ---: | ---:
-count | 50.0 | 50.0 | 50.0 | 50.0
-mean | 5.006 | 3.418 | 1.464 | 0.244
-std | 0.352490 | 0.381024 | 0.173511 | 0.107210
-min | 4.3 | 2.3 | 1.0 | 0.1
-max | 5.8 | 4.4 | 1.9 | 0.6
+Stat | Sepal Length (cm) | Sepal Width (cm) | Sepal Area (cm) | Petal Length (cm) | Petal Width (cm) | Petal Area (cm)
+--- | ---: | ---: | ---: | ---: | ---: | ---:
+count | 50.0 | 50.0 | 50.0 | 50.0 | 50.0 | 50.0
+mean | 5.936 | 2.770 | 16.5262 | 4.260 | 1.326 | 5.7204
+std | 0.516171 | 0.313798 | 2.866882 | 0.469911 | 0.197753 | 1.368403
+min | 4.9 | 2.0 | 10.00 | 3.0 | 1.0 | 3.30
+max | 7.0 | 3.4 | 22.40 | 5.1 | 1.8 | 8.64
+
+#### Iris-virginica
+
+Stat | Sepal Length (cm) | Sepal Width (cm) | Sepal Area (cm) | Petal Length (cm) | Petal Width (cm) | Petal Area (cm)
+--- | ---: | ---: | ---: | ---: | ---: | ---:
+count | 50.0 | 50.0 | 50.0 | 50.0 | 50.0 | 50.0
+mean | 6.588 | 2.974 | 19.6846 | 5.552 | 2.026 | 11.2962
+std | 0.635880 | 0.322497 | 3.458783 | 0.551895 | 0.274650 | 2.157412
+min | 4.9 | 2.2 | 12.25 | 4.5 | 1.4 | 7.50
+max | 7.9 | 3.8 | 30.02 | 6.9 | 2.5 | 15.87
 
 
 
