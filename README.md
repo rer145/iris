@@ -21,6 +21,14 @@ Pandas contains a very useful method called ```describe()```.  This method gener
 
 I created two additional columns of data for each record that represents the area of the sepal and petal. This was accomplished by multiplying the length and width of the sepal and the petal and concatenating that to the iris data set. 
 
+```python
+sepalArea = iris["SepalLengthCm"] * iris["SepalWidthCm"]  #calculates the area of the sepals
+petalArea = iris["PetalLengthCm"] * iris["PetalWidthCm"]  #calculates the area of the petals
+
+# convert each calcuation into series, and then concatenate them to the original data
+iris = pd.concat([iris, pd.Series(sepalArea, name='SepalAreaCm'), pd.Series(petalArea, name='PetalAreaCm')], axis=1)
+```
+
 #### Iris-setosa
 
 Stat | Sepal Length (cm) | Sepal Width (cm) | Sepal Area (cm) | Petal Length (cm) | Petal Width (cm) | Petal Area (cm)
